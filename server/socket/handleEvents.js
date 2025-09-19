@@ -1,4 +1,4 @@
-import { generate_message } from "../helper/LLM.helper.js";
+import { generate_message } from "../lib/LLM.lib.js";
 
 export const handleEvents = (socket, io) => {
   console.log(socket.id, "connected");
